@@ -1,0 +1,58 @@
+
+# General settings
+work_dir: "experiments/"
+model_name: "RegistrationWithLEDA"
+random_seed: 42
+
+# Model settings
+# Registration network parameters
+model_type: 'gradicon'
+dataset_name: "torus"
+
+
+# LEDA hyperparamters
+latent_dim: 256
+activation_choice: 'leakyrelu'
+step_roots: True
+step_epochs: 20
+step_size: 1
+max_levels: 6
+
+# Training settings
+num_epochs: 1000
+batch_size: 50
+learning_rate: 0.00001
+early_stop: True
+early_stop_patience: 50
+early_stop_start: 500
+step_interval_to_print: 20
+validation_frequency: 10
+plotting_frequency: 20
+registration_burin: 200
+
+# LEDA Loss settings
+icon_lambda: 10
+mse_lambda: 10
+latent_lambda: 1
+
+
+# Registration network loss settings
+lmbda: 1 # all_loss = self.lmbda * inverse_consistency_loss + similarity_loss
+
+# Optimizer settings
+optimizer: "adamw"
+weight_decay: 0.0001
+
+# Dataset split ratios
+dataset_size: 1.0
+test_size: 0.2
+val_size: 0.01
+
+
+# Device settings
+device: "cuda:1"  # Use "cpu" if you don't have a GPU
+
+
+
+# load
+load_dir: null 
