@@ -30,3 +30,12 @@ If you use this code or if you use the loss function for gradient inverse consis
   year={2023}
 }
 ```
+3. Karanam, Mokshagna Sai Teja, et al. "MORPH-LER: Log-Euclidean Regularization for Population-Aware Image Registration." arXiv preprint arXiv:2502.02029 (2025).
+```
+@article{karanam2025morph,
+  title={MORPH-LER: Log-Euclidean Regularization for Population-Aware Image Registration},
+  author={Karanam, Mokshagna Sai Teja and Iyer, Krithika and Joshi, Sarang and Elhabian, Shireen},
+  journal={arXiv preprint arXiv:2502.02029},
+  year={2025}
+}
+```
