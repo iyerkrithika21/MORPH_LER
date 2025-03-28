@@ -4,14 +4,14 @@
 1. LEDA: Log-Euclidean Diffeomorphic Autoencoder for Efficient Statistical Analysis of Diffeomorphism. Krithika Iyer, Shireen Elhabian, Sarang Joshi
 2. MORPH-LER: Log-Euclidean Regularization for Population-Aware Image Registration. Mokshagna Sai Teja Karanam, Krithika Iyer, Sarang Joshi, Shireen Elhabian
 
-
+Code for the loss functions was adapated from the ICON and GradICON repository (https://github.com/uncbiag/ICON)
 
 ## OASIS dataset
 Link: https://github.com/adalca/medical-datasets/blob/master/neurite-oasis.md
 
 ## Citations
 If you use this code or if you use the loss function for gradient inverse consistency (GradICON) and inverse consistency (ICON), please cite the following: 
-1. Iyer, Krithika, Shireen Elhabian, and Sarang Joshi. "LEDA: Log-Euclidean Diffeomorphic Autoencoder for Efficient Statistical Analysis of Diffeomorphism." arXiv preprint arXiv:2412.16129 (2024).
+1. Iyer, Krithika, Shireen Elhabian, and Sarang Joshi. "LEDA: Log-Euclidean Diffeomorphic Autoencoder for Efficient Statistical Analysis of Diffeomorphism." arXiv preprint arXiv:2412.16129 (2024). ----> Accepted at IPMI 2025
 ```
 @article{iyer2024leda,
   title={LEDA: Log-Euclidean Diffeomorphic Autoencoder for Efficient Statistical Analysis of Diffeomorphism},
@@ -30,7 +30,7 @@ If you use this code or if you use the loss function for gradient inverse consis
   year={2023}
 }
 ```
-3. Karanam, Mokshagna Sai Teja, et al. "MORPH-LER: Log-Euclidean Regularization for Population-Aware Image Registration." arXiv preprint arXiv:2502.02029 (2025).
+3. Karanam, Mokshagna Sai Teja, et al. "MORPH-LER: Log-Euclidean Regularization for Population-Aware Image Registration." arXiv preprint arXiv:2502.02029 (2025). ----> Accepted at MIDL 2025
 ```
 @article{karanam2025morph,
   title={MORPH-LER: Log-Euclidean Regularization for Population-Aware Image Registration},
